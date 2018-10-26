@@ -1,0 +1,26 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "ws模板",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyunlong0418/websocket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangyunlong0418/websocket/issues"
+  },
+  "homepage": "https://github.com/wangyunlong0418/websocket#readme",
+  "dependencies": {
+    "koa": "^2.6.1",
+    "koa-static": "^5.0.0",
+    "ws": "^6.1.0"
+  }
+}
